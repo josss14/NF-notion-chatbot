@@ -9,7 +9,7 @@ import os
 
 # Load OpenAI API key
 openai.api_key = st.secrets["OPENAI_API_KEY"]
-#openai.api_key = os.environ.get('OPENAI_API_KEY')
+
 
 # Load the Notion content located in the folder 'notion_content'
 loader = NotionDirectoryLoader("notion_content")
